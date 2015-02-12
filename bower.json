@@ -1,0 +1,45 @@
+{
+  "name": "inuit",
+  "private": true,
+  "dependencies": {
+    "inuit-defaults": "latest",
+    "inuit-responsive-settings": "latest",
+
+    "inuit-functions": "latest",
+    "inuit-mixins": "latest",
+    "inuit-responsive-tools": "latest",
+
+    "inuit-normalize.css": "latest",
+    "inuit-box-sizing": "latest",
+    "inuit-reset": "latest",
+    "inuit-shared": "latest",
+
+    "inuit-headings": "latest",
+    "inuit-paragraphs": "latest",
+    "inuit-lists": "latest",
+    "inuit-images": "latest",
+    "inuit-page": "latest",
+
+    "inuit-block": "latest",
+    "inuit-box": "latest",
+    "inuit-buttons": "latest",
+    "inuit-flag": "latest",
+    "inuit-layout": "latest",
+    "inuit-list-bare": "latest",
+    "inuit-list-block": "latest",
+    "inuit-list-inline": "latest",
+    "inuit-list-ui": "latest",
+    "inuit-media": "latest",
+    "inuit-pack": "latest",
+    "inuit-tables": "latest",
+    "inuit-tabs": "latest",
+
+    "inuit-clearfix": "latest",
+    "inuit-print": "latest",
+    "inuit-spacing": "latest",
+    "inuit-spacing-responsive": "latest",
+    "inuit-widths": "latest",
+    "inuit-widths-responsive": "latest"
+  },
+  "devDependencies": {}
+}
