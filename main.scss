@@ -3,7 +3,8 @@
  *
  * SETTINGS
  * Defaults.............Globally-available variables and config.
- * Responsive...........Responsive breakpoint settings
+ * Responsive...........Responsive breakpoint settings.
+ * Settings.............Site settings.
  *
  * TOOLS
  * Functions............Reusable functions.
@@ -64,7 +65,7 @@
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "bower_components/inuit-responsive-settings/settings.responsive";
 
-@import "settings.main.scss";
+@import "settings/settings.scss";
 
 
 
