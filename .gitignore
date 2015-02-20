@@ -9,3 +9,4 @@ bower_components
 
 # Node
 node_modules
+.npm-debug.log
