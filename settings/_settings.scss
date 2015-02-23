@@ -2,7 +2,7 @@
  * CONTENTS
  *
  * SETTINGS
- * Variables.............Global site variables.
+ * Base.............Global site variables i.e. typography, colors etc.
  */
 
 
@@ -13,4 +13,4 @@
     #SETTINGS
 \*------------------------------------*/
 
-@import "variables";
+@import "settings.base";
