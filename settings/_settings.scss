@@ -2,7 +2,11 @@
 // * CONTENTS
 // *
 // * SETTINGS
+// * Colors...........Set default and brand colors.
+// * Typography.......Declare site font family and sizing.
 // * Base.............Global site variables i.e. typography, colors etc.
+// * Objects..........Variables for objects i.e. buttons, media etc.
+// * Trumps...........Set defaults for trumps i.e. spacing & widths.
 // */
 
 
@@ -13,4 +17,8 @@
 //    #SETTINGS
 //\*------------------------------------*/
 
+@import "settings.colors";
+@import "settings.typography";
 @import "settings.base";
+@import "settings.objects";
+@import "settings.trumps";
