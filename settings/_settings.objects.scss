@@ -2,6 +2,8 @@
 //    #BLOCK
 //\*------------------------------------*/
 
+//$inuit-block-namespace:     $inuit-namespace;
+
 //$inuit-block-gutter:            $inuit-base-spacing-unit;
 //$inuit-block-gutter--tiny:        quarter($inuit-block-gutter);
 //$inuit-block-gutter--small:         halve($inuit-block-gutter);
@@ -24,6 +26,8 @@
 //    #BOX
 //\*------------------------------------*/
 
+//$inuit-box-namespace:       $inuit-namespace;
+
 //$inuit-box-padding:         $inuit-base-spacing-unit;
 //$inuit-box-padding--tiny:     quarter($inuit-box-padding);
 //$inuit-box-padding--small:      halve($inuit-box-padding);
@@ -43,6 +47,8 @@
 ///*------------------------------------*\
 //    #BUTTONS
 //\*------------------------------------*/
+
+//$inuit-btn-namespace:       $inuit-namespace;
 
 //$inuit-btn-padding:         halve($inuit-base-spacing-unit);
 //$inuit-btn-padding--small:  halve($inuit-btn-padding);
@@ -66,6 +72,8 @@
 ///*------------------------------------*\
 //    #FLAG
 //\*------------------------------------*/
+
+//$inuit-flag-namespace:          $inuit-namespace;
 
 //$inuit-flag-gutter:             $inuit-base-spacing-unit;
 //$inuit-flag-gutter--tiny:         quarter($inuit-flag-gutter);
@@ -92,6 +100,8 @@
 //    #LAYOUT
 //\*------------------------------------*/
 
+//$inuit-layout-namespace:        $inuit-namespace;
+
 //$inuit-layout-gutter:           $inuit-base-spacing-unit;
 //$inuit-layout-gutter--tiny:       quarter($inuit-layout-gutter);
 //$inuit-layout-gutter--small:        halve($inuit-layout-gutter);
@@ -115,8 +125,20 @@
 
 
 ///*------------------------------------*\
+//    #LIST-BARE
+//\*------------------------------------*/
+
+//$inuit-list-bare-namespace: $inuit-namespace;
+
+
+
+
+
+///*------------------------------------*\
 //    #LIST-BLOCK
 //\*------------------------------------*/
+
+//$inuit-list-block-namespace:        $inuit-namespace;
 
 //$inuit-list-block-padding:          $inuit-base-spacing-unit;
 //$inuit-list-block-padding--tiny:      quarter($inuit-list-block-padding);
@@ -137,6 +159,8 @@
 //    #LIST-INLINE
 //\*------------------------------------*/
 
+//$inuit-list-inline-namespace:           $inuit-namespace;
+
 //$inuit-enable-list-inline--delimited:   true;
 //$inuit-list-inline-delimit-character:   "\00bb";
 
@@ -147,6 +171,8 @@
 ///*------------------------------------*\
 //    #LIST-UI
 //\*------------------------------------*/
+
+//$inuit-list-ui-namespace:       $inuit-namespace;
 
 //$inuit-list-ui-padding:         $inuit-base-spacing-unit;
 //$inuit-list-ui-padding--tiny:     quarter($inuit-list-ui-padding);
@@ -171,6 +197,8 @@
 //    #MEDIA
 //\*------------------------------------*/
 
+//$inuit-media-namespace:             $inuit-namespace;
+
 //$inuit-media-gutter:                $inuit-base-spacing-unit;
 //$inuit-media-gutter--tiny:            quarter($inuit-media-gutter);
 //$inuit-media-gutter--small:             halve($inuit-media-gutter);
@@ -193,6 +221,8 @@
 ///*------------------------------------*\
 //    #PACK
 //\*------------------------------------*/
+
+//$inuit-pack-namespace:      $inuit-namespace;
 
 //$inuit-pack-gutter:         $inuit-base-spacing-unit;
 //$inuit-pack-gutter--tiny:     quarter($inuit-pack-gutter);
@@ -217,6 +247,8 @@
 //    #TABLES
 //\*------------------------------------*/
 
+//$inuit-table-namespace:         $inuit-namespace;
+
 //$inuit-table-padding--compact:  quarter($inuit-base-spacing-unit);
 //$inuit-table-padding--cosy:     halve($inuit-base-spacing-unit);
 //$inuit-table-padding--comfy:    $inuit-base-spacing-unit;
@@ -232,3 +264,13 @@
 //$inuit-enable-table--cells:     false;
 //$inuit-enable-table--rows:      false;
 //$inuit-enable-table--columns:   false;
+
+
+
+
+
+///*------------------------------------*\
+//    #TABS
+//\*------------------------------------*/
+
+//$inuit-tabs-namespace: $inuit-namespace;

@@ -4,7 +4,7 @@
  * SETTINGS
  * Defaults.............Globally-available variables and config.
  * Responsive...........Responsive breakpoint settings.
- * Settings.............Site settings.
+ * Settings.............Import custom site settings.
  *
  * TOOLS
  * Functions............Reusable functions.
@@ -23,6 +23,7 @@
  * Lists................UL, LI styles.
  * Images...............Fluid images.
  * Page.................High-level page styles.
+ * Base.................Import custom base styles.
  *
  * OBJECTS
  * Block................Image stacked on top of content.
@@ -83,6 +84,7 @@
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
 @import "bower_components/inuit-responsive-tools/tools.responsive";
+@import "bower_components/inuit-tools-widths/tools.widths";
 
 
 
@@ -174,6 +176,7 @@
 \*------------------------------------*/
 
 @import "bower_components/inuit-clearfix/trumps.clearfix";
+@import "bower_components/inuit-headings-trumps/trumps.headings";
 @import "bower_components/inuit-print/trumps.print";
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";

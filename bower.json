@@ -8,6 +8,7 @@
     "inuit-functions": "latest",
     "inuit-mixins": "latest",
     "inuit-responsive-tools": "latest",
+    "inuit-tools-widths": "latest",
 
     "inuit-normalize.css": "latest",
     "inuit-box-sizing": "latest",
@@ -35,6 +36,7 @@
     "inuit-tabs": "latest",
 
     "inuit-clearfix": "latest",
+    "inuit-headings-trumps": "latest",
     "inuit-print": "latest",
     "inuit-spacing": "latest",
     "inuit-spacing-responsive": "latest",
