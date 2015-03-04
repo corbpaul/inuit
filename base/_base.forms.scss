@@ -1,14 +1,14 @@
 /*------------------------------------*\
-    #FORMS
+#FORMS
 \*------------------------------------*/
 
 /**
- * Form elements.
- * 
- * Dependencies
- *  - inuit settings.defaults
- *  - inuit tools.mixins
- */
+* Form elements.
+* 
+* Dependencies
+*  - inuit settings.defaults
+*  - inuit tools.mixins
+*/
 
 // Predefine the variables below in order to alter and enable specific features.
 $luna-legend-font-size:	$inuit-base-font-size !default;
@@ -18,7 +18,7 @@ $luna-legend-font-size:	$inuit-base-font-size !default;
 
 
 /*------------------------------------*\
-    #NON-CONTROL-FORM-ELEMENTS
+#NON-CONTROL-FORM-ELEMENTS
 \*------------------------------------*/
 
 fieldset {
@@ -45,50 +45,50 @@ label {
 
 
 /*------------------------------------*\
-    #NON-CONTROL-FORM-ELEMENTS
+#NON-CONTROL-FORM-ELEMENTS
 \*------------------------------------*/
 
 /**
- * Better positions for radio and checkbox
- */
+* Better positions for radio and checkbox
+*/
 input[type="radio"],
 input[type="checkbox"] {
     position: relative;
     bottom: 2px;
     line-height: normal;
-  	vertical-align: middle;
+    vertical-align: middle;
 
         &+ label {
-  			   margin-left: 8px;
-  		  }
+            margin-left: 8px;
+        }
 }
 
 /**
- * Set the height of file controls to match text inputs
- */
+* Set the height of file controls to match text inputs
+*/
 input[type="file"] {
-  	display: block;
+    display: block;
 }
 
 /**
- * Make range inputs behave like textual form controls
- */
+* Make range inputs behave like textual form controls
+*/
 input[type="range"] {
-  	display: block;
-  	width: 100%;
+    display: block;
+    width: 100%;
 }
 
 /**
- * Make multiple select elements height not fixed
- */
+* Make multiple select elements height not fixed
+*/
 select[multiple],
 select[size] {
-  	height: auto;
+    height: auto;
 }
 
 /**
- * Remove chevron image
- */
+* Remove chevron image
+*/
 select[multiple] {
-  	background-image:none;
+    background-image:none;
 }
