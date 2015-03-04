@@ -1,0 +1,88 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+/**
+ * Form elements.
+ */
+
+// Predefine the variables below in order to alter and enable specific features.
+$stayz-legend-font-size:	1.5em !default;
+
+
+
+
+
+/*------------------------------------*\
+    #NON-CONTROL-FORM-ELEMENTS
+\*------------------------------------*/
+
+fieldset {
+  min-width: 0; /* Reset Chrome and Firefox behaviour which sets a 'min-width: min-content;' on fieldsets */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  display: block;
+  width: 100%;
+  font-size: $stayz-legend-font-size;
+  line-height: inherit;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%; /* Force IE8 to wrap long content */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #NON-CONTROL-FORM-ELEMENTS
+\*------------------------------------*/
+
+/**
+ * Better positions for radio and checkbox
+ */
+input[type="radio"],
+input[type="checkbox"] {
+  height: 1.1em;
+  width: 1.1em;
+  margin: 3px 0 0;
+  line-height: normal;
+}
+
+/**
+ * Set the height of file controls to match text inputs
+ */
+input[type="file"] {
+  display: block;
+}
+
+/**
+ * Make range inputs behave like textual form controls
+ */
+input[type="range"] {
+  display: block;
+  width: 100%;
+}
+
+/**
+ * Make multiple select elements height not fixed
+ */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/**
+ * Remove chevron image
+ */
+select[multiple] {
+  background-image:none;
+}
