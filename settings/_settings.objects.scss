@@ -1,6 +1,135 @@
 ///*------------------------------------*\
-//    #OBJECTS-SETTINGS
+//    #BLOCK
 //\*------------------------------------*/
+
+//$inuit-block-gutter:            $inuit-base-spacing-unit;
+//$inuit-block-gutter--tiny:        quarter($inuit-block-gutter);
+//$inuit-block-gutter--small:         halve($inuit-block-gutter);
+//$inuit-block-gutter--large:        double($inuit-block-gutter);
+//$inuit-block-gutter--huge:      quadruple($inuit-block-gutter);
+
+//$inuit-enable-block--flush:     false;
+//$inuit-enable-block--tiny:      false;
+//$inuit-enable-block--small:     false;
+//$inuit-enable-block--large:     false;
+//$inuit-enable-block--huge:      false;
+//$inuit-enable-block--center:    false;
+//$inuit-enable-block--right:     false;
+
+
+
+
+
+///*------------------------------------*\
+//    #BOX
+//\*------------------------------------*/
+
+//$inuit-box-padding:         $inuit-base-spacing-unit;
+//$inuit-box-padding--tiny:     quarter($inuit-box-padding);
+//$inuit-box-padding--small:      halve($inuit-box-padding);
+//$inuit-box-padding--large:     double($inuit-box-padding);
+//$inuit-box-padding--huge:   quadruple($inuit-box-padding);
+
+//$inuit-enable-box--flush:   false;
+//$inuit-enable-box--tiny:    false;
+//$inuit-enable-box--small:   false;
+//$inuit-enable-box--large:   false;
+//$inuit-enable-box--huge:    false;
+
+
+
+
+
+
+///*------------------------------------*\
+//    #BUTTONS
+//\*------------------------------------*/
+
+//$inuit-btn-padding:         halve($inuit-base-spacing-unit);
+//$inuit-btn-padding--small:  halve($inuit-btn-padding);
+//$inuit-btn-padding--large:  double($inuit-btn-padding);
+//$inuit-btn-background:      #4a8ec2;
+//$inuit-btn-color:           #fff;
+//$inuit-btn-border-width:    1px;
+//$inuit-btn-border-style:    solid;
+//$inuit-btn-border-color:    $inuit-btn-background;
+//$inuit-btn-radius:          0;
+
+//$inuit-enable-btn--small:   false;
+//$inuit-enable-btn--large:   false;
+//$inuit-enable-btn--full:    false;
+//$inuit-enable-btn--pill:    false;
+
+
+
+
+
+///*------------------------------------*\
+//    #FLAG
+//\*------------------------------------*/
+
+//$inuit-flag-gutter:             $inuit-base-spacing-unit;
+//$inuit-flag-gutter--tiny:         quarter($inuit-flag-gutter);
+//$inuit-flag-gutter--small:          halve($inuit-flag-gutter);
+//$inuit-flag-gutter--large:         double($inuit-flag-gutter);
+//$inuit-flag-gutter--huge:       quadruple($inuit-flag-gutter);
+
+//$inuit-enable-flag--tiny:       false;
+//$inuit-enable-flag--small:      false;
+//$inuit-enable-flag--large:      false;
+//$inuit-enable-flag--huge:       false;
+//$inuit-enable-flag--rev:        false;
+//$inuit-enable-flag--flush:      false;
+//$inuit-enable-flag--top:        false;
+//$inuit-enable-flag--bottom:     false;
+//$inuit-enable-flag--responsive: false;
+//$inuit-flag-collapse-at:        720px;
+
+
+
+
+
+///*------------------------------------*\
+//    #LAYOUT
+//\*------------------------------------*/
+
+//$inuit-layout-gutter:           $inuit-base-spacing-unit;
+//$inuit-layout-gutter--tiny:       quarter($inuit-layout-gutter);
+//$inuit-layout-gutter--small:        halve($inuit-layout-gutter);
+//$inuit-layout-gutter--large:       double($inuit-layout-gutter);
+//$inuit-layout-gutter--huge:     quadruple($inuit-layout-gutter);
+
+//$inuit-enable-layout--tiny:     false;
+//$inuit-enable-layout--small:    false;
+//$inuit-enable-layout--large:    false;
+//$inuit-enable-layout--huge:     false;
+//$inuit-enable-layout--flush:    false;
+//$inuit-enable-layout--rev:      false;
+//$inuit-enable-layout--middle:   false;
+//$inuit-enable-layout--bottom:   false;
+//$inuit-enable-layout--right:    false;
+//$inuit-enable-layout--center:   false;
+//$inuit-enable-layout--auto:     false;
+
+
+
+
+
+///*------------------------------------*\
+//    #LIST-BLOCK
+//\*------------------------------------*/
+
+//$inuit-list-block-padding:          $inuit-base-spacing-unit;
+//$inuit-list-block-padding--tiny:      quarter($inuit-list-block-padding);
+//$inuit-list-block-padding--small:       halve($inuit-list-block-padding);
+//$inuit-list-block-padding--large:      double($inuit-list-block-padding);
+//$inuit-list-block-padding--huge:    quadruple($inuit-list-block-padding);
+
+//$inuit-enable-list-block--tiny:     false;
+//$inuit-enable-list-block--small:    false;
+//$inuit-enable-list-block--large:    false;
+//$inuit-enable-list-block--huge:     false;
+
 
 
 
@@ -9,5 +138,98 @@
 //    #LIST-INLINE
 //\*------------------------------------*/
 
-$inuit-enable-list-inline--delimited:   true;
-$inuit-list-inline-delimit-character:   "\00bb";
+//$inuit-enable-list-inline--delimited:   true;
+//$inuit-list-inline-delimit-character:   "\00bb";
+
+
+
+
+
+///*------------------------------------*\
+//    #LIST-UI
+//\*------------------------------------*/
+
+//$inuit-list-ui-padding:         $inuit-base-spacing-unit;
+//$inuit-list-ui-padding--tiny:     quarter($inuit-list-ui-padding);
+//$inuit-list-ui-padding--small:      halve($inuit-list-ui-padding);
+//$inuit-list-ui-padding--large:     double($inuit-list-ui-padding);
+//$inuit-list-ui-padding--huge:   quadruple($inuit-list-ui-padding);
+
+//$inuit-list-ui-border-width:    1px;
+//$inuit-list-ui-border-style:    solid;
+//$inuit-list-ui-border-color:    #ccc;
+
+//$inuit-enable-list-ui--tiny:    false;
+//$inuit-enable-list-ui--small:   false;
+//$inuit-enable-list-ui--large:   false;
+//$inuit-enable-list-ui--huge:    false;
+
+
+
+
+
+///*------------------------------------*\
+//    #MEDIA
+//\*------------------------------------*/
+
+//$inuit-media-gutter:                $inuit-base-spacing-unit;
+//$inuit-media-gutter--tiny:            quarter($inuit-media-gutter);
+//$inuit-media-gutter--small:             halve($inuit-media-gutter);
+//$inuit-media-gutter--large:            double($inuit-media-gutter);
+//$inuit-media-gutter--huge:          quadruple($inuit-media-gutter);
+
+//$inuit-enable-media--tiny:          false;
+//$inuit-enable-media--small:         false;
+//$inuit-enable-media--large:         false;
+//$inuit-enable-media--huge:          false;
+//$inuit-enable-media--rev:           false;
+//$inuit-enable-media--flush:         false;
+//$inuit-enable-media--responsive:    false;
+//$inuit-media-collapse-at:           720px;
+
+
+
+
+
+///*------------------------------------*\
+//    #PACK
+//\*------------------------------------*/
+
+//$inuit-pack-gutter:         $inuit-base-spacing-unit;
+//$inuit-pack-gutter--tiny:     quarter($inuit-pack-gutter);
+//$inuit-pack-gutter--small:      halve($inuit-pack-gutter);
+//$inuit-pack-gutter--large:     double($inuit-pack-gutter);
+//$inuit-pack-gutter--huge:   quadruple($inuit-pack-gutter);
+
+//$inuit-enable-pack--auto:   false;
+//$inuit-enable-pack--tiny:   false;
+//$inuit-enable-pack--small:  false;
+//$inuit-enable-pack--large:  false;
+//$inuit-enable-pack--huge:   false;
+//$inuit-enable-pack--rev:    false;
+//$inuit-enable-pack--middle: false;
+//$inuit-enable-pack--bottom: false;
+
+
+
+
+
+///*------------------------------------*\
+//    #TABLES
+//\*------------------------------------*/
+
+//$inuit-table-padding--compact:  quarter($inuit-base-spacing-unit);
+//$inuit-table-padding--cosy:     halve($inuit-base-spacing-unit);
+//$inuit-table-padding--comfy:    $inuit-base-spacing-unit;
+
+//$inuit-table-border-width:      1px;
+//$inuit-table-border-style:      solid;
+//$inuit-table-border-color:      #ccc;
+
+//$inuit-enable-table--fixed:     false;
+//$inuit-enable-table--compact:   false;
+//$inuit-enable-table--cosy:      false;
+//$inuit-enable-table--comfy:     false;
+//$inuit-enable-table--cells:     false;
+//$inuit-enable-table--rows:      false;
+//$inuit-enable-table--columns:   false;

@@ -11,7 +11,7 @@
  */
 
 // Predefine the variables below in order to alter and enable specific features.
-$stayz-legend-font-size:	$inuit-base-font-size !default;
+$luna-legend-font-size:	$inuit-base-font-size !default;
 
 
 
@@ -31,7 +31,7 @@ fieldset {
 legend {
   	display: block;
   	width: 100%;
-  	@include inuit-font-size($stayz-legend-font-size);
+  	@include inuit-font-size($luna-legend-font-size);
 }
 
 label {
