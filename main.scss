@@ -10,12 +10,14 @@
  * Functions............Reusable functions.
  * Mixins...............Useful mixins.
  * Responsive...........Mixin for declaring styles within media queries.
+ * Tools................Import customs tools.
  *
  * GENERIC
  * Normalize.css........A level playing field.
  * Box-sizing...........Better default `box-sizing`.
  * Reset................Additional resets to normalize.
  * Shared...............Apply shared styles for spacing rhythm.
+ * Generic..............Import custom generic styles.
  *
  * BASE
  * Headings.............H1–H6 styles.
@@ -39,8 +41,10 @@
  * Pack.................Packs children up horizontally to fit parent width.
  * Tables...............Simple table layouts.
  * Tabs.................Equal width nav tabs.
+ * Objects..............Import custom objects.
  *
  * COMPONENTS
+ * Components...........Import custom component index.
  * 
  * THEME
  *
@@ -52,7 +56,8 @@
  * Spacing..............Margin and padding helper classes.
  * Responsive-Spacing...Responsive margin and padding helper classes.
  * Width................Width helper classes.
- * Responsive-Spacing...Responsive width helper classes.
+ * Responsive-Widths....Responsive width helper classes.
+ * Trumps...............Import custom trumps.
 */
 
 
@@ -85,6 +90,8 @@
 @import "bower_components/inuit-mixins/tools.mixins";
 @import "bower_components/inuit-responsive-tools/tools.responsive";
 @import "bower_components/inuit-tools-widths/tools.widths";
+
+@import "tools/tools";
 
 
 
