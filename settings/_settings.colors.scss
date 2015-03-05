@@ -2,18 +2,31 @@
 //    #COLORS
 //\*------------------------------------*/
 
-// Base
+/**
+ * Declare base and brand colors.
+ */
+
+
+
+
+
+///*------------------------------------*\
+//    #BASE
+//\*------------------------------------*/
+
 $white:			#FFF;
 $black:			#000;
 $grey:			#999;
-$alt-grey:		#666;
+
+$blue:			#57a3e8;
+$green:			#79a12e;
 
 
-// Brand colors
-$blue:	#57a3e8;
-$green:	#79a12e;
 
 
-// Branding
+///*------------------------------------*\
+//    #BRAND-COLORS
+//\*------------------------------------*/
+
 $brand-primary-color: 	$blue;
 $brand-secondary-color:	$green;

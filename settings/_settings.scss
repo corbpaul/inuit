@@ -1,9 +1,18 @@
 ///**
 // * CONTENTS
 // *
-// * SETTINGS
+// * DEFAULTS
+// * Typography.......Override inuit sizes & colors.
+// * Namespace........Declare a namespace to prepend all inuit styles.
+// *
+// * RESPONSIVE
+// * Breakpoints......Override inuit breakpoints.
+// *
+// * BRANDING
 // * Colors...........Set default and brand colors.
 // * Typography.......Declare site font family and sizing.
+// *
+// * LAYERS
 // * Base.............Base HTML declarations.
 // * Objects..........Variables for objects i.e. buttons, media etc.
 // * Trumps...........Set defaults for trumps i.e. spacing & widths.
@@ -14,11 +23,52 @@
 
 
 ///*------------------------------------*\
-//    #SETTINGS
+//    #SETTINGS-DEFAULTS
+//\*------------------------------------*/
+
+//$inuit-base-font-size:          16px;
+//$inuit-base-line-height:        24px;
+//$inuit-base-text-color:         #333;
+//$inuit-base-background-color:   #fff;
+
+//$inuit-namespace:               null;
+
+
+
+
+
+///*------------------------------------*\
+//    #SETTINGS-RESPONSIVE
+//\*------------------------------------*/
+
+//$breakpoints: (
+//    "palm"          "screen and (max-width: 44.9375em)",
+//    "lap"           "screen and (min-width: 45em) and (max-width: 63.9375em)",
+//    "lap-and-up"    "screen and (min-width: 45em)",
+//    "portable"      "screen and (max-width: 63.9375em)",
+//    "desk"          "screen and (min-width: 64em)",
+//    "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
+//);
+
+
+
+
+
+///*------------------------------------*\
+//    #SETTINGS-BRANDING
 //\*------------------------------------*/
 
 @import "settings.colors";
 @import "settings.typography";
+
+
+
+
+
+///*------------------------------------*\
+//    #SETTINGS-LAYERS
+//\*------------------------------------*/
+
 @import "settings.base";
 @import "settings.objects";
 @import "settings.trumps";

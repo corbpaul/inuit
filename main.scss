@@ -71,7 +71,7 @@
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "bower_components/inuit-responsive-settings/settings.responsive";
 
-@import "settings/settings.scss";
+@import "settings/settings";
 
 
 
@@ -99,6 +99,8 @@
 @import "bower_components/inuit-reset/generic.reset";
 @import "bower_components/inuit-shared/generic.shared";
 
+@import "generic/generic";
+
 
 
 
@@ -113,7 +115,7 @@
 @import "bower_components/inuit-images/base.images";
 @import "bower_components/inuit-page/base.page";
 
-@import "base/base.scss";
+@import "base/base";
 
 
 
@@ -137,6 +139,8 @@
 @import "bower_components/inuit-tables/objects.tables";
 @import "bower_components/inuit-tabs/objects.tabs";
 
+@import "objects/objects";
+
 
 
 
@@ -145,7 +149,7 @@
     #COMPONENTS
 \*------------------------------------*/
 
-// > Your components here <
+@import "components/components";
 
 
 
@@ -182,3 +186,5 @@
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-widths/trumps.widths";
 @import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
+
+@import "trumps/trumps";

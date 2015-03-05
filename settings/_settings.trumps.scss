@@ -5,7 +5,16 @@
 //$inuit-spacing-namespace:               $inuit-namespace;
 
 //$inuit-margin:                          $inuit-base-spacing-unit;
+//$inuit-margin--small:                       halve($inuit-margin);
+//$inuit-margin--tiny:                      quarter($inuit-margin);
+//$inuit-margin--large:                      double($inuit-margin);
+//$inuit-margin--huge:                    quadruple($inuit-margin);
+
 //$inuit-padding:                         $inuit-base-spacing-unit;
+//$inuit-padding--small:                      halve($inuit-padding);
+//$inuit-padding--tiny:                     quarter($inuit-padding);
+//$inuit-padding--large:                     double($inuit-padding);
+//$inuit-padding--huge:                   quadruple($inuit-padding);
 
 //$inuit-enable-margins:                  false;
 //$inuit-enable-margins--tiny:            false;
@@ -67,6 +76,14 @@
 //    #WIDTHS
 //\*------------------------------------*/
 
-//$inuit-widths-namespace: $inuit-namespace;
+//$inuit-widths-columns: (1,2,3,4,5);
 
-//$inuit-use-fractions:    true;
+
+
+
+
+///*------------------------------------*\
+//    #WIDTHS-RESPONSIVE
+//\*------------------------------------*/
+
+//$inuit-widths-columns-responsive: (1,2,3,4,5);
