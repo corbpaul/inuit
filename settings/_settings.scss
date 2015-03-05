@@ -2,7 +2,7 @@
 // * CONTENTS
 // *
 // * DEFAULTS
-// * Typography.......Override inuit sizes & colors.
+// * Typography.......Override inuit font sizes & colors.
 // * Namespace........Declare a namespace to prepend all inuit styles.
 // *
 // * RESPONSIVE
@@ -69,6 +69,7 @@
 //    #SETTINGS-LAYERS
 //\*------------------------------------*/
 
+@import "settings.tools";
 @import "settings.base";
 @import "settings.objects";
 @import "settings.trumps";
