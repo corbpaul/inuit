@@ -46,7 +46,7 @@ label {
 
 
 /*------------------------------------*\
-    #NON-CONTROL-FORM-ELEMENTS
+    #CONTROL-FORM-ELEMENTS
 \*------------------------------------*/
 
 /**
@@ -91,5 +91,5 @@ select[size] {
 * Remove chevron image
 */
 select[multiple] {
-    background-image:none;
+    background-image: none;
 }
