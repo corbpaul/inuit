@@ -38,7 +38,7 @@ legend {
 label {
     display: inline-block;
     max-width: 100%; /* Force IE8 to wrap long content */
-    margin-bottom: 5px;
+    margin-bottom: $inuit-base-spacing-unit--tiny;
 }
 
 
@@ -60,7 +60,7 @@ input[type="checkbox"] {
     vertical-align: middle;
 
         &+ label {
-            margin-left: 8px;
+            margin-left: $inuit-base-spacing-unit--tiny;
         }
 }
 
