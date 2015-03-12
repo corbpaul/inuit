@@ -10,14 +10,12 @@
  * Functions............Reusable functions.
  * Mixins...............Useful mixins.
  * Responsive...........Mixin for declaring styles within media queries.
- * Tools................Import customs tools.
  *
  * GENERIC
  * Normalize.css........A level playing field.
  * Box-sizing...........Better default `box-sizing`.
  * Reset................Additional resets to normalize.
  * Shared...............Apply shared styles for spacing rhythm.
- * Generic..............Import custom generic styles.
  *
  * BASE
  * Headings.............H1–H6 styles.
@@ -25,7 +23,6 @@
  * Lists................UL, LI styles.
  * Images...............Fluid images.
  * Page.................High-level page styles.
- * Base.................Import custom base styles.
  *
  * OBJECTS
  * Block................Image stacked on top of content.
@@ -41,10 +38,8 @@
  * Pack.................Packs children up horizontally to fit parent width.
  * Tables...............Simple table layouts.
  * Tabs.................Equal width nav tabs.
- * Objects..............Import custom objects.
  *
  * COMPONENTS
- * Components...........Import custom component index.
  * 
  * THEME
  *
@@ -57,7 +52,6 @@
  * Responsive-Spacing...Responsive margin and padding helper classes.
  * Width................Width helper classes.
  * Responsive-Widths....Responsive width helper classes.
- * Trumps...............Import custom trumps.
 */
 
 
@@ -91,8 +85,6 @@
 @import "bower_components/inuit-responsive-tools/tools.responsive";
 @import "bower_components/inuit-tools-widths/tools.widths";
 
-@import "tools/tools";
-
 
 
 
@@ -105,8 +97,6 @@
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 @import "bower_components/inuit-reset/generic.reset";
 @import "bower_components/inuit-shared/generic.shared";
-
-@import "generic/generic";
 
 
 
@@ -121,8 +111,6 @@
 @import "bower_components/inuit-lists/base.lists";
 @import "bower_components/inuit-images/base.images";
 @import "bower_components/inuit-page/base.page";
-
-@import "base/base";
 
 
 
@@ -146,8 +134,6 @@
 @import "bower_components/inuit-tables/objects.tables";
 @import "bower_components/inuit-tabs/objects.tabs";
 
-@import "objects/objects";
-
 
 
 
@@ -156,8 +142,7 @@
     #COMPONENTS
 \*------------------------------------*/
 
-@import "components/components";
-
+// > Components here <
 
 
 
@@ -193,5 +178,3 @@
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-widths/trumps.widths";
 @import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
-
-@import "trumps/trumps";
