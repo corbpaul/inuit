@@ -24,8 +24,8 @@
 @mixin luna-link-interact-states {
 
 	&:hover,
-    &:focus,
-    &:active {
-        @content;
-    }
+	&:focus,
+	&:active {
+		@content;
+	}
 }
