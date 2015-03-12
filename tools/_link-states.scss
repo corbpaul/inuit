@@ -1,0 +1,31 @@
+///*------------------------------------*\
+//    #LINK-STATES
+//\*------------------------------------*/
+
+// Create consistent user interact states
+// e.g.
+//
+// .foo {
+//     	@include luna-interact-states {
+//			color: #3399FF;
+//			text-decoration: underline;
+//		};
+// }
+//
+// This will generate hover, focus and active states
+//
+// .foo:hover,
+// .foo:focus,
+// .foo:active {
+//     	color: #3399FF;
+// 		text-decoration: underline;
+// }
+
+@mixin luna-link-interact-states {
+
+	&:hover,
+    &:focus,
+    &:active {
+        @content;
+    }
+}
