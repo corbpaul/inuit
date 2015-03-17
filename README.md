@@ -1,4 +1,4 @@
-# Inuit
+# Inuitcss Base setup architecture
 
 Base setup for using inuit.css https://github.com/inuitcss
 
